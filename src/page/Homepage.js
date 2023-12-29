@@ -4,7 +4,7 @@ export default function Homepage() {
     return (
         <div>
             <div class="card bg-dark text-white" style={{borderRadius: 0}}>
-                <img class="card-img" src={backgroundImage} alt="Card image" style={{width: '100%', height: "67vh", objectFit: "cover"}}></img>
+                <img class="card-img" src={backgroundImage} alt="cover" style={{width: '100%', height: "67vh", objectFit: "cover"}}></img>
                 <div class="card-img-overlay" style={{backgroundColor: "#000000AA", height: "100%"}}>
                     <div style={{position: "absolute", left: "5%", top: "50%", transform: "translate(-5%, -50%)", padding: "1.25rem"}}>
                         <h3 class="card-title">Cryptology and Information Security Conference 2024</h3>
@@ -49,17 +49,16 @@ export default function Homepage() {
                                         </tr>
                                         <tr>
                                             <td style={{whiteSpace: "nowrap"}}>活動地點</td>
-                                            <td>國立臺北科技大學 集思會議中心<br />（台北市大安區忠孝東路三段 1 號 —— 億光大樓 2 樓）</td>
+                                            <td>國立臺北科技大學先鋒國際研發大樓 3F-4F<br />（106台北市大安區忠孝東路三段 46 號 3F-4F）</td>
                                         </tr>
                                         <tr>
                                             <td style={{whiteSpace: "nowrap"}}>重要日期</td>
                                             <td>
-                                                <li>論文投稿截止日：2020/6/30~2020/7/7</li>
-                                                <li>論文通知接受日：2020/8/4</li>
-                                                <li>論文完稿截稿日：2020/8/10</li>
-                                                <li>早鳥繳費期限：2020/8/10</li>
-                                                <li>一般繳費期限：2020/9/2</li>
-                                                <li>資安會議舉辦日期：2020/9/1-4</li>
+                                                <li>論文投稿截止日：2024/06/18~2024/07/14</li>
+                                                <li>論文通知接受日：2024/07/26~2024/08/03</li>
+                                                <li>論文完稿授權上傳日：2024/08/04</li>
+                                                <li>早鳥繳費期限：2024/08/04~2024/08/15</li>
+                                                <li>一般繳費期限：2024/08/16~2024/08/27</li>
                                             </td>
                                         </tr>
                                     </tbody>
