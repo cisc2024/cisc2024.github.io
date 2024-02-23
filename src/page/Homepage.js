@@ -45,7 +45,7 @@ export default function Homepage() {
                                     <tbody>
                                         <tr>
                                             <td style={{whiteSpace: "nowrap"}}>活動期間</td>
-                                            <td>2023/08/29-30 共 2 天。</td>
+                                            <td>2024/08/29-30 共 2 天。</td>
                                         </tr>
                                         <tr>
                                             <td style={{whiteSpace: "nowrap"}}>活動地點</td>
