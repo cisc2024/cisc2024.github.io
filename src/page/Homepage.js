@@ -8,7 +8,7 @@ export default function Homepage() {
                 <div class="card-img-overlay" style={{backgroundColor: "#000000AA", height: "100%"}}>
                     <div style={{position: "absolute", left: "5%", top: "50%", transform: "translate(-5%, -50%)", padding: "1.25rem"}}>
                         <h3 class="card-title">Cryptology and Information Security Conference 2024</h3>
-                        <h5 class="card-text">29-30 September, 2024</h5>
+                        <h5 class="card-text">29-30 August, 2024</h5>
                         <h5 class="card-text">National Taipei University of Technology</h5>
                     </div>
                 </div>
