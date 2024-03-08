@@ -17,8 +17,8 @@ export default function Information(){
                     <div className="alert alert-info">
                         <p>— 主要聯繫資訊 —</p>
                         <ul>
-                            <li>聯絡人：陳昱圻</li>
-                            <li>聯絡電話：(02) 27712171 #4231</li>
+                            <li>聯絡人：陳昱圻、孫勤昱</li>
+                            <li>聯絡電話：(02) 27712171 #4231 #4245</li>
                             <li>聯絡地址：國立臺北科技大學資訊工程系（10608 台北市忠孝東路三段 1 號 北科大資工系）</li>
                         </ul>
                     </div>
