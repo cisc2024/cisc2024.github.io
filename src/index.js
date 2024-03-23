@@ -6,7 +6,7 @@ import About from './page/About';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './navbar';
 import Footer from "./footer"
-import { BrowserRouter, createBrowserRouter, Route, RouterProvider, Routes } from 'react-router-dom';
+import { BrowserRouter, createBrowserRouter, HashRouter, Route, RouterProvider, Routes } from 'react-router-dom';
 import Organization from './page/Organization';
 import Information from './page/Information';
 import Agenda from './page/Agenda';
@@ -18,7 +18,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <div style={{marginTop: "5vh", minHeight: "86.3vh"}}>
         <Navbar />
         <Routes>
@@ -33,7 +33,7 @@ root.render(
         </Routes>
       </div>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
