@@ -7,7 +7,7 @@ function Paper() {
             <div className="mb-5">
                 <h4 className="text-left py-3"> 線上投稿 </h4>
                 <div>
-                    <p className="text-left">本大會採用EasyChair作為投稿系統，請投稿者至 <a href="https://easychair.org/">EasyChair 投稿系統</a> 註冊並進行投稿。</p>
+                    <p className="text-left">本大會採用EasyChair作為投稿系統，請投稿者至 <a href="https://easychair.org/conferences/?conf=cisc20240">EasyChair 投稿系統</a> 註冊並進行投稿。</p>
                 </div>
             </div>
             <div className="mb-5">
