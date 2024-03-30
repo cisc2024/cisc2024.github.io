@@ -89,9 +89,9 @@ function Paper() {
                     <li>pdfTex範例亦可使用Overleaf線上編輯器，請參考線上範例。(提供來源：陳昱圻教授)</li>
                 </ul>
                 <div className="d-flex flex-row gap-5 my-5">
-                    <button className="btn btn-success w-100">論文格式範例下載 WORD</button>
-                    <button className="btn btn-success w-100">論文格式範例下載 XeLaTeX</button>
-                    <button className="btn btn-success w-100">論文格式範例下載 pdfTex</button>
+                    <a href="/CISC2024_format-0121rev.doc" target="_blank"><button className="btn btn-success w-100">論文格式範例下載 WORD</button></a>
+                    <a href="/CISC2024_format_XeLaTeX.tex" target="_blank"><button className="btn btn-success w-100">論文格式範例下載 XeLaTeX</button></a>
+                    <a href="/CISC2024_format_pdfTex.tex" target="_blank"><button className="btn btn-success w-100">論文格式範例下載 pdfTex</button></a>
                 </div>
             </div>
             <div className="mb-5">
@@ -104,7 +104,7 @@ function Paper() {
             </div>
             <div className="mb-5">
                 <h4 className="text-left py-3"> 定稿／投稿教學 </h4>
-                <button className="btn btn-success w-100">開啟教學手冊 PDF 檔</button>
+                <a href="/CISC2024_easychair_tutorial.pdf" target="_blank"><button className="btn btn-success w-100">開啟教學手冊 PDF 檔</button></a>
             </div>
             <div className="mb-5">
                 <h4 className="text-left py-3"> 論文定稿上傳教學影片 </h4>
