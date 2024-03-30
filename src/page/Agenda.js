@@ -4,10 +4,10 @@ export default function Agenda(){
             <div className="w-100 p-5">
                 <h1 className="text-center">會議議程</h1>
             </div>
-            <div className="alert alert-warning d-flex flex-column gap-3">
+            {/* <div className="alert alert-warning d-flex flex-column gap-3">
                 <h4 className="fw-bold text-center">論文發表規則</h4>
                 <span className="text-center">每人發表時間 ？ 分鐘 、？ 分鐘舉牌提醒、？ 分鐘按鈴提醒、？ 分鐘由主持人提問。</span>
-            </div>
+            </div> */}
             <div className="d-flex flex-column gap-5 mb-5">
                 <table className="table table-borderless col-md-12 shadow" cellPadding={0} cellSpacing={0}>
                     <tbody>

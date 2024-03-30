@@ -1,8 +1,8 @@
-export default function Itinerary(){
+export default function Travel(){
     return (
         <div className="container">
             <div className="w-100 p-5">
-                <h1 className="text-center">參訪行程</h1>
+                <h1 className="text-center">旅遊資訊</h1>
             </div>
             <div className="d-flex flex-column gap-5">
                 <div className="d-flex flex-row gap-5">
@@ -22,7 +22,7 @@ export default function Itinerary(){
                     </div>
                     <div className="w-100">
                         <h3 className="text-center py-2">大安森林公園</h3>
-                        <p>大安森林公園，位於台灣台北市東區，是一個充滿自然風光和休閒氛圍的城市綠地。這座公園擁有廣大的綠地，為都市居民提供了一個隨時可以逃離煩囂的寧靜天地。</p>
+                        <p>大安森林公園，位於台灣台北市大安區，是一個充滿自然風光和休閒氛圍的城市綠地。這座公園擁有廣大的綠地，為都市居民提供了一個隨時可以逃離煩囂的寧靜天地。</p>
                         <p>公園內的大片草坪、湖泊和樹木組成了一幅美麗的自然畫卷。步入公園，遠離了都市的喧囂，彷彿置身於一個悠閒的世外桃源。許多人在這裡散步、慢跑，或是找個草地野餐，享受陽光和微風的悠然時光。</p>
                         <p>大安森林公園不僅是休憩的好地方，更是生態豐富的環境。湖泊中的水鳥自在地游弋，樹木間不時傳來鳥兒的歌聲。公園內的生態池塘和植物區域展示了城市中的一片綠洲，吸引著各種鳥類和昆蟲，成為自然生態的樂園。</p>
                         <p>此外，大安森林公園還擁有多樣的運動和娛樂設施，如籃球場、兒童遊戲區等，滿足了不同人群的需求。而園區內的藝術裝置和文化活動，更為公園增添了藝術氣息，吸引著藝術愛好者和文化探索者。</p>

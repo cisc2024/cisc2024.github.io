@@ -294,7 +294,7 @@ export default function Organization(){
                             </tr>
                             <tr>
                                 <td className="text-center p-2">羅乃維 教授</td>
-                                <td className="text-center p-2">國立台灣科技大學</td>
+                                <td className="text-center p-2">國立臺灣科技大學</td>
                             </tr>
                             <tr>
                                 <td className="text-center p-2">羅嘉寧 教授</td>

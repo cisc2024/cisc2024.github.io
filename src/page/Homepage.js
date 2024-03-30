@@ -5,7 +5,7 @@ export default function Homepage() {
         <div>
             <div class="card bg-dark text-white" style={{borderRadius: 0}}>
                 <img class="card-img" src={backgroundImage} alt="cover" style={{width: '100%', height: "67vh", objectFit: "cover"}}></img>
-                <div class="card-img-overlay" style={{backgroundColor: "#000000AA", height: "100%"}}>
+                <div class="card-img-overlay" style={{backgroundColor: "#00000099", height: "100%"}}>
                     <div style={{position: "absolute", left: "5%", top: "50%", transform: "translate(-5%, -50%)", padding: "1.25rem"}}>
                         <h3 class="card-title">Cryptology and Information Security Conference 2024</h3>
                         <h5 class="card-text">29-30 August, 2024</h5>
@@ -25,9 +25,14 @@ export default function Homepage() {
                                         <th scope="col" style={{borderTop: 0, padding: "0.5rem"}}>標題</th>
                                     </thead>
                                     <tbody>
-                                        <div className="border border-dash w-100" style={{height: ""}}>
-
-                                        </div>
+                                        <tr>
+                                            <td>2024-03-31</td>
+                                            <td>第三十四屆全國資訊安全會議網頁已上架</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2024-03-31</td>
+                                            <td>請點此查看<a href="#/Resource/Poster" target="_blank">會議論文徵稿海報</a></td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>

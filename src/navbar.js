@@ -28,7 +28,6 @@ export default function Navbar(){
                                 <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">會議議程</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownPortfolio">
                                     <a class="dropdown-item" href="/#Agenda">每日議程</a>
-                                    <a class="dropdown-item" href="/#Itinerary">參訪行程</a>
                                     <a class="dropdown-item" href="/#Session">論文發表場次</a>
                                 </ul>
                             </li>
