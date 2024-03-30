@@ -91,7 +91,7 @@ function Paper() {
                 <div className="d-flex flex-row gap-5 my-5">
                     <a href="/CISC2024_format-0121rev.doc" target="_blank"><button className="btn btn-success w-100">論文格式範例下載 WORD</button></a>
                     <a href="/CISC2024_format_XeLaTeX.tex" target="_blank"><button className="btn btn-success w-100">論文格式範例下載 XeLaTeX</button></a>
-                    <a href="/CISC2024_format_pdfTex.tex" target="_blank"><button className="btn btn-success w-100">論文格式範例下載 pdfTex</button></a>
+                    <a href="/CISC2024_format_pdfTeX.tex" target="_blank"><button className="btn btn-success w-100">論文格式範例下載 pdfTex</button></a>
                 </div>
             </div>
             <div className="mb-5">
