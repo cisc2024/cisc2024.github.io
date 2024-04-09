@@ -10,10 +10,8 @@ import { BrowserRouter, createBrowserRouter, HashRouter, Route, RouterProvider, 
 import Organization from './page/Organization';
 import Information from './page/Information';
 import Agenda from './page/Agenda';
-import Itinerary from './page/Travel';
 import Session from './page/Session';
 import Paper from './page/Paper';
-import Poster from './page/Poster';
 import Travel from './page/Travel';
 import Traffic from './page/Traffic';
 import Accommodation from './page/Accommodation';
@@ -37,7 +35,6 @@ root.render(
           <Route path='/Session' element={<Session />}></Route>
           <Route path='/Paper' element={<Paper />}></Route>
           <Route path='/Traffic' element={<Traffic />}></Route>
-          <Route path="/Resource/Poster" element={<Poster />}></Route>
           <Route path="/Accommodation" element={<Accommodation />}></Route>
           <Route path="/CampusMap" element={<CampusMap />}></Route>
           <Route path="/Partner" element={<Partner />}></Route>
