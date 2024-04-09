@@ -5,7 +5,7 @@ export default function CampusMap(){
                 <h1 className="text-center">校園平面圖</h1>
             </div>
             <div>
-                <img src="https://www.ntut.edu.tw/var/file/7/1007/img/2858/campusMap.jpg" className="w-100"></img>
+                <img src="CampusMap.png" className="w-100"></img>
             </div>
         </div>
     )
