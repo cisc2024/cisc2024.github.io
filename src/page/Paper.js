@@ -16,7 +16,7 @@ function Paper() {
                     <tbody>
                         <tr>
                             <td className="p-3">論文投稿截止日</td>
-                            <td className="p-3">2024/06/18~2024/07/14</td>
+                            <td className="p-3">2024/07/14</td>
                         </tr>
                         <tr>
                             <td className="p-3">論文通知接受日</td>
@@ -24,7 +24,7 @@ function Paper() {
                         </tr>
                         <tr>
                             <td className="p-3">論文完稿截稿日</td>
-                            <td className="p-3">2024/08/04</td>
+                            <td className="p-3">2024/08/04~2024/08/15</td>
                         </tr>
                     </tbody>
                 </table>
