@@ -41,7 +41,7 @@ jobs:
         run: DISABLE_ESLINT_PLUGIN=true npm run build
       - name: Check Files
         run: |
-          ls -lah ./dist
+          ls -lah ./build
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
