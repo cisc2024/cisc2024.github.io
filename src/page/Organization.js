@@ -29,19 +29,19 @@ export default function Organization(){
                         </thead>
                         <tbody>
                             <tr>
-                                <td className="text-center p-2">范俊逸 特聘教授</td>
+                                <td className="text-center p-2">范俊逸 特聘教授／資安學會理事長</td>
                                 <td className="text-center p-2">國立中山大學</td>
                             </tr>
                             <tr>
-                                <td className="text-center p-2">楊士萱 教授</td>
+                                <td className="text-center p-2">楊士萱 教授／副校長</td>
                                 <td className="text-center p-2">國立臺北科技大學</td>
                             </tr>
                             <tr>
-                                <td className="text-center p-2">劉建宏 教授</td>
+                                <td className="text-center p-2">劉建宏 教授／資工系系主任</td>
                                 <td className="text-center p-2">國立臺北科技大學</td>
                             </tr>
                             <tr>
-                                <td className="text-center p-2">吳牧恩 教授</td>
+                                <td className="text-center p-2">吳牧恩 教授／資財系系主任</td>
                                 <td className="text-center p-2">國立臺北科技大學</td>
                             </tr>
                         </tbody>
@@ -56,11 +56,11 @@ export default function Organization(){
                         </thead>
                         <tbody>
                             <tr>
-                                <td className="text-center p-2">吳宗成 教授</td>
+                                <td className="text-center p-2">吳宗成 特聘教授</td>
                                 <td className="text-center p-2">國立臺灣科技大學</td>
                             </tr>
                             <tr>
-                                <td className="text-center p-2">余孝先 副總</td>
+                                <td className="text-center p-2">余孝先 執行副總</td>
                                 <td className="text-center p-2">工研院工研院執行副總暨總營運長</td>
                             </tr>
                             <tr>
@@ -92,7 +92,7 @@ export default function Organization(){
                                 <td className="text-center p-2">國家高速網路與計算中心</td>
                             </tr>
                             <tr>
-                                <td className="text-center p-2">張真誠 教授</td>
+                                <td className="text-center p-2">張真誠 講座教授</td>
                                 <td className="text-center p-2">逢甲大學</td>
                             </tr>
                             <tr>
@@ -104,7 +104,7 @@ export default function Organization(){
                                 <td className="text-center p-2">中華電信研究院</td>
                             </tr>
                             <tr>
-                                <td className="text-center p-2">謝續平 教授</td>
+                                <td className="text-center p-2">謝續平 終身講座教授</td>
                                 <td className="text-center p-2">國立陽明交通大學</td>
                             </tr>
                         </tbody>
@@ -173,7 +173,7 @@ export default function Organization(){
                                 <td className="text-center p-2">國立中正大學</td>
                             </tr>
                             <tr>
-                                <td className="text-center p-2">左瑞麟 教授</td>
+                                <td className="text-center p-2">左瑞麟 特聘教授</td>
                                 <td className="text-center p-2">國立政治大學</td>
                             </tr>
                             <tr>
@@ -185,7 +185,7 @@ export default function Organization(){
                                 <td className="text-center p-2">國立成功大學</td>
                             </tr>
                             <tr>
-                                <td className="text-center p-2">李榮三 教授</td>
+                                <td className="text-center p-2">李榮三 特聘教授</td>
                                 <td className="text-center p-2">逢甲大學</td>
                             </tr>
                             <tr>
@@ -193,7 +193,7 @@ export default function Organization(){
                                 <td className="text-center p-2">國立勤益科技大學</td>
                             </tr>
                             <tr>
-                                <td className="text-center p-2">林詠章 教授</td>
+                                <td className="text-center p-2">林詠章 特聘教授</td>
                                 <td className="text-center p-2">國立中興大學</td>
                             </tr>
                             <tr>
@@ -221,7 +221,7 @@ export default function Organization(){
                                 <td className="text-center p-2">國立中山大學</td>
                             </tr>
                             <tr>
-                                <td className="text-center p-2">曹偉駿 教授</td>
+                                <td className="text-center p-2">曹偉駿 特聘教授</td>
                                 <td className="text-center p-2">國立臺北大學</td>
                             </tr>
                             <tr>
