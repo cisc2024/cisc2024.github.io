@@ -92,15 +92,16 @@ function Paper() {
                     <a href="/CISC2024_format-0121rev.doc" target="_blank"><button className="btn btn-success w-100">論文格式範例下載 WORD</button></a>
                     <a href="/CISC2024_format_XeLaTeX.tex" target="_blank"><button className="btn btn-success w-100">論文格式範例下載 XeLaTeX</button></a>
                     <a href="/CISC2024_format_pdfTeX.tex" target="_blank"><button className="btn btn-success w-100">論文格式範例下載 pdfTex</button></a>
+                    <a href="https://www.overleaf.com/read/trgjythkmjzj#02fc27" target="_blank"><button className="btn btn-success w-100">Overleaf 線上 pdfTex 範例</button></a>
                 </div>
             </div>
             <div className="mb-5">
-                <h4 className="text-left py-3"> 論文格式 </h4>
-                <p>論文審查以匿名方式進行，審查結果將於論文接受通知日，通知各論文的聯絡人。被接受的論文必須將修正後的版本於註冊截止日以前寄回。論文的修正，參照審查意見修改，並製作成PDF格式檔案傳送至本會議的網站。</p>
+                <h4 className="text-left py-3"> 論文審查 </h4>
+                <p>論文審查以匿名方式進行，審查結果將於論文接受通知日，通知各論文的聯絡人。被接受的論文必須將修正後的版本於註冊截止日以前寄回。論文的修正，參照審查意見修改，並製作成PDF格式檔案傳送至本會議的easychair投稿系統。</p>
             </div>
             <div className="mb-5">
-                <h4 className="text-left py-3"> 論文出版計畫 </h4>
-                <p>為增加全國資訊安全會議之國際化，我們擬推薦優秀論文至 Future Internet (EI Journal)、Journal of Electronic Science and Technology (INSPEC)、Security and Communication Networks (SCIE)或同等級之期刊。</p>
+                <h4 className="text-left py-3"> 論文推薦至期刊出版計畫 </h4>
+                <p>為增加全國資訊安全會議之國際化，我們擬推薦優秀『全文投稿之論文』至 Journal of Information Science and Engineering (SCIE)、Journal of Internet Technology (SCIE)或同等級之期刊。</p>
             </div>
             <div className="mb-5">
                 <h4 className="text-left py-3"> 定稿／投稿教學 </h4>
