@@ -15,40 +15,39 @@ export default function Navbar(){
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item dropdown" data-toggle="collapse" data-target=".navbar-collapse.show">
-                                <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">關於大會</a>
+                                <a class="nav-link dropdown-toggle" href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">關於大會</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="/About">關於大會</a></li>
-                                    <li><a class="dropdown-item" href="/Organization">大會組織</a></li>
+                                    <li><a class="dropdown-item" href="/#About">關於大會</a></li>
+                                    <li><a class="dropdown-item" href="/#Organization">大會組織</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                                <a class="nav-link" href="/Information">會議資訊</a>
+                                <a class="nav-link" href="/#Information">會議資訊</a>
                             </li>
                             <li class="nav-item dropdown" data-toggle="collapse" data-target=".navbar-collapse.show">
                                 <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">會議議程</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownPortfolio">
-                                    <a class="dropdown-item" href="/Agenda">每日議程</a>
-                                    <a class="dropdown-item" href="/Itinerary">參訪行程</a>
-                                    <a class="dropdown-item" href="/Session">論文發表場次</a>
+                                    <a class="dropdown-item" href="/#Agenda">每日議程</a>
+                                    <a class="dropdown-item" href="/#Session">論文發表場次</a>
                                 </ul>
                             </li>
                             <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                                <a class="nav-link" href="/Paper">論文徵稿</a>
+                                <a class="nav-link" href="/#Paper">論文徵稿</a>
                             </li>
                             <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                                <a class="nav-link" href="/SignUp">會議報名</a>
+                                <a class="nav-link" href="/#SignUp">會議報名</a>
                             </li>
                             <li class="nav-item dropdown" data-toggle="collapse" data-target=".navbar-collapse.show">
-                                <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">交通與住宿</a>
+                                <a class="nav-link dropdown-toggle" href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">交通與住宿</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownPortfolio">
-                                    <a class="dropdown-item" href="/Traffic">交通資訊</a>
-                                    <a class="dropdown-item" href="/Accommodation">住宿資訊</a>
-                                    <a class="dropdown-item" href="/CampusMap">校園平面圖</a>
-                                    <a class="dropdown-item" href="/Travel">旅遊資訊</a>
+                                    <a class="dropdown-item" href="/#Traffic">交通資訊</a>
+                                    <a class="dropdown-item" href="/#Accommodation">住宿資訊</a>
+                                    <a class="dropdown-item" href="/#CampusMap">校園平面圖</a>
+                                    <a class="dropdown-item" href="/#Travel">旅遊資訊</a>
                                 </ul>
                             </li>
                             <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                                <a class="nav-link" href="/Partner">合作夥伴</a>
+                                <a class="nav-link" href="/#Partner">合作夥伴</a>
                             </li>
                         </ul>
                     </div>
