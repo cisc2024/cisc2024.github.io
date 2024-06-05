@@ -17,6 +17,7 @@ import Traffic from './page/Traffic';
 import Accommodation from './page/Accommodation';
 import CampusMap from './page/CampusMap';
 import Partner from './page/Partner';
+import Apply from "./page/Apply"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -38,6 +39,7 @@ root.render(
           <Route path="/Accommodation" element={<Accommodation />}></Route>
           <Route path="/CampusMap" element={<CampusMap />}></Route>
           <Route path="/Partner" element={<Partner />}></Route>
+          <Route path="/SignUp" element={<Apply />}></Route>
         </Routes>
       </div>
       <Footer />
