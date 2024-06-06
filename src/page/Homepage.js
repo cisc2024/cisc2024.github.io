@@ -33,6 +33,10 @@ export default function Homepage() {
                                             <td>2024-03-31</td>
                                             <td>請點此查看<a href="/CISC2024_CfP.pdf" target="_blank">會議論文徵稿海報</a></td>
                                         </tr>
+                                        <tr>
+                                            <td>2024-06-06</td>
+                                            <td>請加入「<a href="https://lin.ee/OANc51l">第三十四屆全國資訊安全會議官方 LINE 帳號</a>」！</td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
