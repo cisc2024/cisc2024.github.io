@@ -15,7 +15,7 @@ function Paper() {
                 <table className="table table-bordered border-black text-center">
                     <tbody>
                         <tr>
-                            <td className="p-3">論文投稿日</td>
+                            <td className="p-3">論文投稿截止日</td>
                             <td className="p-3">2024/07/14</td>
                         </tr>
                         <tr>
