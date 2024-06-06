@@ -1,4 +1,5 @@
 import { faLine } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Footer(){
@@ -13,6 +14,9 @@ function Footer(){
                 </a>
                 <a className="p-2 bg-white rounded" href="https://lin.ee/OANc51l">
                     <FontAwesomeIcon icon={faLine} size="2xl" style={{color: "#23DAA2"}}></FontAwesomeIcon>
+                </a>
+                <a className="p-2 bg-white rounded" href="mailto://cisc2024.ntut@gmail.com">
+                    <FontAwesomeIcon icon={faEnvelope} size="2xl" style={{color: "#638BE6"}}></FontAwesomeIcon>
                 </a>
             </div>
         </div>
