@@ -26,12 +26,21 @@ export default function Homepage() {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>2024-03-31</td>
+                                            <td className="text-nowrap">2024-03-31</td>
                                             <td>第三十四屆全國資訊安全會議網頁已上架</td>
                                         </tr>
                                         <tr>
-                                            <td>2024-03-31</td>
+                                            <td className="text-nowrap">2024-03-31</td>
                                             <td>請點此查看<a href="/CISC2024_CfP.pdf" target="_blank">會議論文徵稿海報</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td className="text-nowrap">2024-07-06</td>
+                                            <td>
+                                                <div>
+                                                    <p className="fw-bold">由他人代為註冊事宜（碩士班畢業生適用）</p>
+                                                    <p>七、八月份正逢碩士班畢業期間，研討會之八月份收據恐無法讓已畢業碩士生核銷。故本會接受由他人（代理人）代為完成論文註冊，以利核銷。代理人僅需在會議報名表單之備註欄填寫「代XXX註冊」（XXX請自行填入姓名）</p>
+                                                </div>
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>

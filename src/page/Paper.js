@@ -4,6 +4,10 @@ function Paper() {
             <div className="w-100 p-5">
                 <h1 className="text-center">論文徵稿</h1>
             </div>
+            <div className="alert alert-warning">
+                <p className="fw-bold">2024-07-06：由他人代為註冊事宜（碩士班畢業生適用）</p>
+                <p className="m-0">七、八月份正逢碩士班畢業期間，研討會之八月份收據恐無法讓已畢業碩士生核銷。故本會接受由他人（代理人）代為完成論文註冊，以利核銷。代理人僅需在會議報名表單之備註欄填寫「代XXX註冊」（XXX請自行填入姓名）</p>
+            </div>
             <div className="mb-5">
                 <h4 className="text-left py-3"> 線上投稿 </h4>
                 <div>
