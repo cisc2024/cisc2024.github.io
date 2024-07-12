@@ -74,19 +74,21 @@ export default function Agenda(){
                             <td className="p-3 text-center align-middle border-end border-bottom bg-body-secondary" style={{backgroundColor: "#FFFFFF"}}></td>
                         </tr>
                         <tr className="text-black">
-                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <div className="my-auto">
-                                    <span>11:00-11:50</span>
-                                </div>
-                            </td>
-                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <span className="fw-bold">國家資安發展演講 主講人：</span>
-                                <br/>
-                                <span>演講題目：</span>
-                                <br/>
-                                <span>主持人：</span>
-                            </td>
-                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}></td>
+                            {
+                            // <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
+                            //     <div className="my-auto">
+                            //         <span>11:00-11:50</span>
+                            //     </div>
+                            // </td>
+                            // <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
+                            //     <span className="fw-bold">國家資安發展演講 主講人：</span>
+                            //     <br/>
+                            //     <span>演講題目：</span>
+                            //     <br/>
+                            //     <span>主持人：</span>
+                            // </td>
+                            // <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}></td>
+                            }
                         </tr>
                         <tr className="text-black">
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
