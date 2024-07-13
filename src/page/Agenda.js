@@ -104,7 +104,7 @@ export default function Agenda(){
                         <tr className="text-black">
                             <td className="p-3 text-center align-middle border-end border-bottom bg-body-secondary" style={{backgroundColor: "#FFFFFF"}}>
                                 <div className="my-auto">
-                                    <span>12:30-13:30</span>
+                                    <span>12:10-13:30</span>
                                 </div>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom bg-body-secondary" style={{backgroundColor: "#FFFFFF"}}>

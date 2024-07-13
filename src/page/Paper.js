@@ -87,6 +87,9 @@ function Paper() {
             </div>
             <div className="mb-5">
                 <h4 className="text-left py-3"> 論文格式 </h4>
+                <div className="alert alert-info">
+                    <p className="m-0">請參考會議論文獎資格，<span className="fw-bold">摘要投稿、全文投稿請擇一投稿。</span></p>
+                </div>
                 <p>論文以摘要形式投稿，得以中文或英文撰寫。英文長度限600字，中文長度限800字。稿件格式為A4 大小，四邊各留 25mm，單行間距，無須列印頁碼。英文字體 Times New Roman 10 點，中文字體標楷體 10 點。詳細摘要格式見第三十四屆全國資訊安全會議網站所提供的 WORD、Latex 範例檔，存檔格式為 PDF。本次會議提供兩種投稿方式，摘要投稿與全文投稿。另，相關論文獎項請參閱後續說明。</p>
                 <ul>
                     <li>摘要投稿：文稿內容僅需提交題目、作者資訊、摘要。</li>
