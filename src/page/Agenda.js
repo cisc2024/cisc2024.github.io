@@ -8,7 +8,7 @@ export default function Agenda(){
                 <h4 className="fw-bold text-center">論文發表規則</h4>
                 <span className="text-center">每人發表時間 ？ 分鐘 、？ 分鐘舉牌提醒、？ 分鐘按鈴提醒、？ 分鐘由主持人提問。</span>
             </div> */}
-            <div className="d-flex flex-column gap-5 mb-5">
+            <div className="w-100 gap-5 mb-5 overflow-auto">
                 <table className="table table-borderless col-md-12 shadow" cellPadding={0} cellSpacing={0}>
                     <tbody>
                         <tr className="text-white" colspan="4">
@@ -42,10 +42,15 @@ export default function Agenda(){
                                     <span>09:30-09:50</span>
                                 </div>
                             </td>
-                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <span className="fw-bold">開幕</span>
+                            <td className="p-3 text-center align-middle border-end border-bottom d-flex flex-column" style={{backgroundColor: "#FFFFFF"}}>
+                                <span className="fw-bold">開幕：王錫福 校長（國立臺北科技大學）</span>
+                                <span className="fw-bold">范俊逸 理事長（資訊安全學會）</span>
                             </td>
-                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}></td>
+                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
+                                <span>先鋒科技大樓</span>
+                                <br/>
+                                <span>國際會議廳</span>
+                            </td>
                         </tr>
                         <tr className="text-black">
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
@@ -54,13 +59,17 @@ export default function Agenda(){
                                 </div>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <span className="fw-bold">Keynote 演講（一）主講人：</span>
+                                <span className="fw-bold">Keynote 演講（一）主講人：謝續平 終身講座教授（國立陽明交通大學）</span>
                                 <br/>
                                 <span>演講題目：</span>
                                 <br/> 
-                                <span>主持人：</span>
+                                <span>主持人：范俊逸 理事長</span>
                             </td>
-                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}></td>
+                            <td className="p-3 text-center align-middle border-end border-bottom text-nowrap" style={{backgroundColor: "#FFFFFF"}}>
+                                <span>先鋒科技大樓</span>
+                                <br/>
+                                <span>國際會議廳</span>
+                            </td>
                         </tr>
                         <tr className="text-black">
                             <td className="p-3 text-center align-middle border-end border-bottom bg-body-secondary" style={{backgroundColor: "#FFFFFF"}}>
@@ -71,40 +80,27 @@ export default function Agenda(){
                             <td className="p-3 text-center align-middle border-end border-bottom bg-body-secondary" style={{backgroundColor: "#FFFFFF"}}>
                                 <span className="fw-bold">茶會</span>
                             </td>
-                            <td className="p-3 text-center align-middle border-end border-bottom bg-body-secondary" style={{backgroundColor: "#FFFFFF"}}></td>
-                        </tr>
-                        <tr className="text-black">
-                            {
-                            // <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                            //     <div className="my-auto">
-                            //         <span>11:00-11:50</span>
-                            //     </div>
-                            // </td>
-                            // <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                            //     <span className="fw-bold">國家資安發展演講 主講人：</span>
-                            //     <br/>
-                            //     <span>演講題目：</span>
-                            //     <br/>
-                            //     <span>主持人：</span>
-                            // </td>
-                            // <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}></td>
-                            }
+                            <td className="p-3 text-center align-middle border-end border-bottom bg-body-secondary"></td>
                         </tr>
                         <tr className="text-black">
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <div className="my-auto">
-                                    <span>11:00-11:50</span>
+                                    <span>11:00-12:30</span>
                                 </div>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <span className="fw-bold">全國資訊安全學會會員大會</span>
+                                <span className="fw-bold">全國資訊安全學會會員大會暨賴溪松論文獎頒獎</span>
                             </td>
-                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}></td>
+                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
+                                <span>先鋒科技大樓</span>
+                                <br/>
+                                <span>國際會議廳</span>
+                            </td>
                         </tr>
                         <tr className="text-black">
                             <td className="p-3 text-center align-middle border-end border-bottom bg-body-secondary" style={{backgroundColor: "#FFFFFF"}}>
                                 <div className="my-auto">
-                                    <span>12:10-13:30</span>
+                                    <span>12:30-13:30</span>
                                 </div>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom bg-body-secondary" style={{backgroundColor: "#FFFFFF"}}>
@@ -119,18 +115,24 @@ export default function Agenda(){
                                 </div>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <span className="fw-bold">產業趨勢演講（一）主講人：</span>
+                                <span className="fw-bold">產業趨勢演講（一）主講人：翁浩正 執行長（戴夫寇爾）</span>
                                 <br/>
                                 <span>演講題目：</span>
                                 <br/>
-                                <span>主持人：</span>
+                                <span>主持人：待決定</span>
                             </td>
-                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}></td>
+                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
+                                <span>先鋒科技大樓</span>
+                                <br/>
+                                <span>國際會議廳</span>
+                            </td>
                         </tr>
                         <tr className="text-black">
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <div className="my-auto">
                                     <span>14:20-15:40</span>
+                                    <br/>
+                                    <span>(80 mins)</span>
                                 </div>
                             </td>
                             <td className="p-0 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
@@ -153,6 +155,11 @@ export default function Agenda(){
                                                 <br></br>
                                                 <span>密碼學與認證協定 I</span>
                                             </td>
+                                            <td className="bg-success-subtle border border-black col-1">
+                                                <span>Session D1</span>
+                                                <br></br>
+                                                <span>閃電講</span>
+                                            </td>
                                         </tr>
                                         <tr className="w-100">
                                             <td className="bg-danger-subtle border border-black col-1">
@@ -164,11 +171,16 @@ export default function Agenda(){
                                             <td className="bg-success-subtle border border-black col-1">
                                                 <br></br>
                                             </td>
+                                            <td className="bg-success-subtle border border-black col-1">
+                                                <br></br>
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </td>
-                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}></td>
+                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
+                                <span>先鋒科技大樓</span>
+                            </td>
                         </tr>
                         <tr className="text-black">
                             <td className="p-3 text-center align-middle border-end border-bottom bg-body-secondary" style={{backgroundColor: "#FFFFFF"}}>
@@ -184,7 +196,9 @@ export default function Agenda(){
                         <tr className="text-black">
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <div className="my-auto">
-                                    <span>16:00-17:20</span>
+                                    <span>16:00-17:30</span>
+                                    <br/>
+                                    <span>(90 mins)</span>
                                 </div>
                             </td>
                             <td className="p-0 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
@@ -207,6 +221,11 @@ export default function Agenda(){
                                                 <br></br>
                                                 <span>密碼學與認證協定 II</span>
                                             </td>
+                                            <td className="bg-success-subtle border border-black col-1">
+                                                <span>Session D2</span>
+                                                <br></br>
+                                                <span>閃電講</span>
+                                            </td>
                                         </tr>
                                         <tr className="w-100">
                                             <td className="bg-danger-subtle border border-black col-1">
@@ -218,11 +237,16 @@ export default function Agenda(){
                                             <td className="bg-success-subtle border border-black col-1">
                                                 <br></br>
                                             </td>
+                                            <td className="bg-success-subtle border border-black col-1">
+                                                <br></br>
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </td>
-                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}></td>
+                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
+                                <span>先鋒科技大樓</span>
+                            </td>
                         </tr>
                         <tr className="text-black">
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
@@ -238,7 +262,7 @@ export default function Agenda(){
                     </tbody>
                 </table>
             </div>
-            <div className="d-flex flex-column gap-5 mb-5">
+            <div className="d-flex flex-column gap-5 mb-5 overflow-auto">
                 <table className="table table-borderless col-md-12 shadow" cellPadding={0} cellSpacing={0}>
                     <tbody>
                         <tr className="text-white" colspan="4">
@@ -273,13 +297,17 @@ export default function Agenda(){
                                 </div>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <span className="fw-bold">產業趨勢演講（二）主講人：</span>
+                                <span className="fw-bold">產業趨勢演講（二）主講人：Prof. Kazue Sako (早稻田大學)</span>
                                 <br/>
                                 <span>演講題目：</span>
                                 <br/> 
-                                <span>主持人：</span>
+                                <span>主持人：左瑞麟 教授</span>
                             </td>
-                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}></td>
+                            <td className="p-3 text-center align-middle border-end border-bottom text-nowrap" style={{backgroundColor: "#FFFFFF"}}>
+                                <span>先鋒科技大樓</span>
+                                <br/>
+                                <span>國際會議廳</span>
+                            </td>
                         </tr>
                         <tr className="text-black">
                             <td className="p-3 text-center align-middle border-end border-bottom bg-body-secondary" style={{backgroundColor: "#FFFFFF"}}>
@@ -299,29 +327,38 @@ export default function Agenda(){
                                 </div>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <span className="fw-bold">Invited 演講（三）主講人：</span>
+                                <span className="fw-bold">Invited 演講（一）主講人：Srinivas Shekar (Pantherun Technologies)</span>
                                 <br/>
                                 <span>演講題目：</span>
                                 <br/>
-                                <span>主持人：</span>
+                                <span>主持人：待決定</span>
                             </td>
-                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}></td>
+                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
+                                <span>先鋒科技大樓</span>
+                                <br/>
+                                <span>國際會議廳</span>
+                            </td>
                         </tr>
                         <tr className="text-black">
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <div className="my-auto">
-                                    <span>11:30-12:10</span>
+                                    <span>11:30-12:00</span>
                                 </div>
                             </td>
-                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <span className="fw-bold">賴溪松教授論文獎暨成果發表會</span>
+                            <td className="p-3 text-center align-middle border-end border-bottom d-flex flex-column" style={{backgroundColor: "#FFFFFF"}}>
+                                <span className="fw-bold">企業系列演講</span>
+                                <span className="fw-bold">安華聯網</span>
                             </td>
-                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}></td>
+                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
+                                <span>先鋒科技大樓</span>
+                                <br/>
+                                <span>國際會議廳</span>
+                            </td>
                         </tr>
                         <tr className="text-black">
                             <td className="p-3 text-center align-middle border-end border-bottom bg-body-secondary" style={{backgroundColor: "#FFFFFF"}}>
                                 <div className="my-auto">
-                                    <span>12:10-13:30</span>
+                                    <span>12:00-13:00</span>
                                 </div>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom bg-body-secondary" style={{backgroundColor: "#FFFFFF"}}>
@@ -332,18 +369,9 @@ export default function Agenda(){
                         <tr className="text-black">
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <div className="my-auto">
-                                    <span>13:10-13:40</span>
-                                </div>
-                            </td>
-                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <span className="fw-bold">頒發最佳論文獎</span>
-                            </td>
-                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}></td>
-                        </tr>
-                        <tr className="text-black">
-                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <div className="my-auto">
-                                    <span>13:40-14:50</span>
+                                    <span>13:00-14:30</span>
+                                    <br/>
+                                    <span>(90 min)</span>
                                 </div>
                             </td>
                             <td className="p-0 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
@@ -366,6 +394,11 @@ export default function Agenda(){
                                                 <br></br>
                                                 <span>雲端與物聯網安全 I</span>
                                             </td>
+                                            <td className="bg-success-subtle border border-black col-1">
+                                                <span>Session D3</span>
+                                                <br></br>
+                                                <span>閃電講</span>
+                                            </td>
                                         </tr>
                                         <tr className="w-100">
                                             <td className="bg-danger-subtle border border-black col-1">
@@ -377,16 +410,21 @@ export default function Agenda(){
                                             <td className="bg-success-subtle border border-black col-1">
                                                 <br></br>
                                             </td>
+                                            <td className="bg-success-subtle border border-black col-1">
+                                                <br></br>
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </td>
-                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}></td>
+                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
+                                <span>先鋒科技大樓</span>
+                            </td>
                         </tr>
                         <tr className="text-black">
                             <td className="p-3 text-center align-middle border-end border-bottom bg-body-secondary" style={{backgroundColor: "#FFFFFF"}}>
                                 <div className="my-auto">
-                                    <span>14:50-15:10</span>
+                                    <span>14:30-14:50</span>
                                 </div>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom bg-body-secondary" style={{backgroundColor: "#FFFFFF"}}>
@@ -397,22 +435,26 @@ export default function Agenda(){
                         <tr className="text-black">
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <div className="my-auto">
-                                    <span>15:10-15:50</span>
+                                    <span>14:50-15:40</span>
                                 </div>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <span className="fw-bold">Keynote 演講（二）主講人：</span>
+                                <span className="fw-bold">企業系列演講</span>
                                 <br/>
-                                <span>演講題目：</span>
-                                <br/> 
-                                <span>主持人：</span>
+                                <span>亞利安、果核</span>
                             </td>
-                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}></td>
+                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
+                                <span>先鋒科技大樓</span>
+                                <br/>
+                                <span>國際會議廳</span>
+                            </td>
                         </tr>
                         <tr className="text-black">
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <div className="my-auto">
-                                    <span>15:50-17:00</span>
+                                    <span>15:50-17:10</span>
+                                    <br/>
+                                    <span>(90 min)</span>
                                 </div>
                             </td>
                             <td className="p-0 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
@@ -421,19 +463,24 @@ export default function Agenda(){
                                     <tbody>
                                         <tr className="w-100">
                                             <td className="bg-danger-subtle border border-black col-1">
-                                                <span>Session A2</span>
+                                                <span>Session A4</span>
                                                 <br></br>
                                                 <span>網路與多媒體安全 II</span>
                                             </td>
                                             <td className="bg-warning-subtle border border-black col-1">
-                                                <span>Session B2</span>
+                                                <span>Session B4</span>
                                                 <br></br>
                                                 <span>人工智慧與機器學習安全 II</span>
                                             </td>
                                             <td className="bg-success-subtle border border-black col-1">
-                                                <span>Session C2</span>
+                                                <span>Session C4</span>
                                                 <br></br>
                                                 <span>雲端與物聯網安全 II</span>
+                                            </td>
+                                            <td className="bg-success-subtle border border-black col-1">
+                                                <span>Session D4</span>
+                                                <br></br>
+                                                <span>閃電講</span>
                                             </td>
                                         </tr>
                                         <tr className="w-100">
@@ -441,6 +488,9 @@ export default function Agenda(){
                                                 <br></br>
                                             </td>
                                             <td className="bg-warning-subtle border border-black col-1">
+                                                <br></br>
+                                            </td>
+                                            <td className="bg-success-subtle border border-black col-1">
                                                 <br></br>
                                             </td>
                                             <td className="bg-success-subtle border border-black col-1">
@@ -450,12 +500,14 @@ export default function Agenda(){
                                     </tbody>
                                 </table>
                             </td>
-                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}></td>
+                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
+                                <span>先鋒科技大樓</span>
+                            </td>
                         </tr>
                         <tr className="text-black">
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <div className="my-auto">
-                                    <span>17:00</span>
+                                    <span>17:10</span>
                                 </div>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
