@@ -49,7 +49,6 @@ function Apply(){
                         </tr>
                     </tbody>
                 </table>
-                <p className="py-3 text-center">報名繳費等相關訊息將於論文投稿截止日後提供。</p>
             </div>
             <div className="mb-5">
                 <h4 className="text-left py-3">匯款資訊</h4>
