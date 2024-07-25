@@ -253,6 +253,10 @@ export default function Organization(){
                                 <td className="text-center p-2">國立宜蘭大學</td>
                             </tr>
                             <tr>
+                                <td className="text-center p-2">陳宗和 教授</td>
+                                <td className="text-center p-2">國立嘉義大學</td>
+                            </tr>
+                            <tr>
                                 <td className="text-center p-2">黃仁俊 教授</td>
                                 <td className="text-center p-2">淡江大學</td>
                             </tr>
@@ -267,6 +271,10 @@ export default function Organization(){
                             <tr>
                                 <td className="text-center p-2">黃俊穎 教授</td>
                                 <td className="text-center p-2">國立陽明交通大學</td>
+                            </tr>
+                            <tr>
+                                <td className="text-center p-2">曾一凡 教授</td>
+                                <td className="text-center p-2">國立政治大學</td>
                             </tr>
                             <tr>
                                 <td className="text-center p-2">楊明豪 教授</td>
@@ -289,6 +297,10 @@ export default function Organization(){
                                 <td className="text-center p-2">國立臺灣海洋大學</td>
                             </tr>
                             <tr>
+                                <td className="text-center p-2">蔡國裕 教授</td>
+                                <td className="text-center p-2">逢甲大學</td>
+                            </tr>
+                            <tr>
                                 <td className="text-center p-2">賴俊鳴 教授</td>
                                 <td className="text-center p-2">東海大學</td>
                             </tr>
@@ -299,6 +311,10 @@ export default function Organization(){
                             <tr>
                                 <td className="text-center p-2">羅嘉寧 教授</td>
                                 <td className="text-center p-2">國立國防大學</td>
+                            </tr>
+                            <tr>
+                                <td className="text-center p-2">劉奕賢 教授</td>
+                                <td className="text-center p-2">國立成功大學</td>
                             </tr>
                         </tbody>
                     </table>
