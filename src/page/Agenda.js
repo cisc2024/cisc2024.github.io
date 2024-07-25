@@ -441,7 +441,7 @@ export default function Agenda(){
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span className="fw-bold">企業系列演講</span>
                                 <br/>
-                                <span>亞利安、果核</span>
+                                <span className="fw-bold">亞利安、果核</span>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>
