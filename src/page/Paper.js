@@ -27,8 +27,8 @@ function Paper() {
                             <td className="p-3">2024/08/01~2024/08/07</td>
                         </tr>
                         <tr>
-                            <td className="p-3">論文完稿截稿日</td>
-                            <td className="p-3">2024/08/04~2024/08/15</td>
+                            <td className="p-3">論文完稿授權上傳日</td>
+                            <td className="p-3">2024/08/04~2024/08/19</td>
                         </tr>
                     </tbody>
                 </table>
