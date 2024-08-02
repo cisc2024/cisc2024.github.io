@@ -115,11 +115,11 @@ export default function Agenda(){
                                 </div>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <span className="fw-bold">產業趨勢演講（一）主講人：翁浩正 執行長（戴夫寇爾）</span>
+                                <span className="fw-bold">產業趨勢演講 主講人：翁浩正 執行長（戴夫寇爾）</span>
                                 <br/>
                                 <span>演講題目：</span>
                                 <br/>
-                                <span>主持人：待決定</span>
+                                <span>主持人：陳昱圻</span>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>
@@ -297,7 +297,7 @@ export default function Agenda(){
                                 </div>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <span className="fw-bold">產業趨勢演講（二）主講人：Prof. Kazue Sako (早稻田大學)</span>
+                                <span className="fw-bold">Keynote 演講（二）主講人：Prof. Kazue Sako (早稻田大學)</span>
                                 <br/>
                                 <span>演講題目：</span>
                                 <br/> 
@@ -331,7 +331,7 @@ export default function Agenda(){
                                 <br/>
                                 <span>演講題目：</span>
                                 <br/>
-                                <span>主持人：待決定</span>
+                                <span>主持人：陳昱圻</span>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>

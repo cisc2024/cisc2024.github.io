@@ -87,6 +87,78 @@ export default function Partner(){
                         </a>
                         <p className="py-2 text-center"> 數聯資安股份有限公司 </p>
                     </div>
+                    <div className="d-flex flex-column" style={{width: "250px"}}>
+                        <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3" style={{height: "250px"}} href="https://www.mas.org.tw/" target="_blank">
+                            <img className="w-100" src="./logo/masa-logo.jpg" />
+                        </a>
+                        <p className="py-2 text-center"> 行動應用資安聯盟 </p>
+                    </div>
+                    <div className="d-flex flex-column" style={{width: "250px"}}>
+                        <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3" style={{height: "250px"}} href="https://www.easycard.com.tw/" target="_blank">
+                            <img className="w-100" src="./logo/easycard-logo.png" />
+                        </a>
+                        <p className="py-2 text-center"> 悠遊卡股份有限公司 </p>
+                    </div>
+                </div>
+                <div className="py-2 d-flex gap-5">
+                    <div className="d-flex flex-column" style={{width: "250px"}}>
+                        <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3" style={{height: "250px"}} href="https://www.ttc.org.tw/" target="_blank">
+                            <img className="w-100" src="./logo/ttc-logo.png" />
+                        </a>
+                        <p className="py-2 text-center"> 財團法人電信技術中心 </p>
+                    </div>
+                    <div className="d-flex flex-column" style={{width: "250px"}}>
+                        <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3" style={{height: "250px"}} href="https://www.trendmicro.com/zh_tw/business.html" target="_blank">
+                            <img className="w-100" src="./logo/trend-logo.png" />
+                        </a>
+                        <p className="py-2 text-center"> 趨勢科技股份有限公司 </p>
+                    </div>
+                    <div className="d-flex flex-column" style={{width: "250px"}}>
+                        <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3" style={{height: "250px"}} href="https://www.provision.com.tw/" target="_blank">
+                            <img className="w-100" src="./logo/provision-logo.png" />
+                        </a>
+                        <p className="py-2 text-center"> 普鴻資訊股份有限公司 </p>
+                    </div>
+                    <div className="d-flex flex-column" style={{width: "250px"}}>
+                        <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3" style={{height: "250px"}} href="https://www.iii.org.tw/" target="_blank">
+                            <img className="w-100" src="./logo/iii-logo.jpg" />
+                        </a>
+                        <p className="py-2 text-center"> 財團法人資訊工業策進會 </p>
+                    </div>
+                </div>
+                <div className="py-2 d-flex gap-5">
+                    <div className="d-flex flex-column" style={{width: "250px"}}>
+                        <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3" style={{height: "250px"}} href="https://www.ciphertech.com.tw/" target="_blank">
+                            <img className="w-100" src="./logo/ciphertech-logo.png" />
+                        </a>
+                        <p className="py-2 text-center"> 亞利安科技股份有限公司 </p>
+                    </div>
+                    <div className="d-flex flex-column" style={{width: "250px"}}>
+                        <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3" style={{height: "250px"}} href="https://www.citi.sinica.edu.tw/" target="_blank">
+                            <img className="w-100" src="./logo/citi-logo.png" />
+                        </a>
+                        <p className="py-2 text-center"> 中央研究院資訊科技創新研究中心 </p>
+                    </div>
+                    <div className="d-flex flex-column" style={{width: "250px"}}>
+                        <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3" style={{height: "250px"}} href="https://www.raisetech.tw/" target="_blank">
+                            <img className="w-100" src="./logo/rapixus-logo.png" />
+                        </a>
+                        <p className="py-2 text-center"> 瑞思資訊股份有限公司 </p>
+                    </div>
+                    <div className="d-flex flex-column" style={{width: "250px"}}>
+                        <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3" style={{height: "250px"}} href="https://cycraft.com/" target="_blank">
+                            <img className="w-100" src="./logo/cycraft-logo.png" />
+                        </a>
+                        <p className="py-2 text-center"> 奧義智慧科技 </p>
+                    </div>
+                </div>
+                <div className="py-2 d-flex gap-5">
+                    <div className="d-flex flex-column" style={{width: "250px"}}>
+                        <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3" style={{height: "250px"}} href="https://roboadvisor.com.tw/" target="_blank">
+                            <img className="w-100" src="./logo/alpha-logo.png" />
+                        </a>
+                        <p className="py-2 text-center"> 阿爾發機器人理財 </p>
+                    </div>
                 </div>
             </div>
         </div>
