@@ -10,9 +10,12 @@ function Apply(){
             </div>
             <div className="mb-4">
                 <h4 className="text-left py-3">線上報名</h4>
-                <div className="d-flex flex-row justify-content-cneter">
+                <div className="d-flex flex-column gap-3 justify-content-cneter">
                     <a className="w-75 mx-auto" href="https://forms.gle/vJzAanJ2PefZNsWLA" target="_blank">
                         <button className="btn btn-success w-100 mx-auto">線上報名（需使用 Google 帳號登入）</button>
+                    </a>
+                    <a className="w-75 mx-auto" href="/CISC2024_paper_authorization.doc" target="_blank">
+                        <button className="btn btn-success w-100 mx-auto">論文授權書下載</button>
                     </a>
                 </div>
             </div>
