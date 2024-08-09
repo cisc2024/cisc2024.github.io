@@ -46,6 +46,11 @@ export default function Homepage() {
                                                 </div>
                                             </td>
                                         </tr>
+                                        <tr>
+                                            <td className="text-nowrap">2024-08-09</td>
+                                            <td>論文發表場次已經排定，請參考 會議議程 {"->"} <a href="/#Session">論文發表場次</a></td>
+                                            
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
