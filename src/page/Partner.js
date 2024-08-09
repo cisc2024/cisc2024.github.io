@@ -159,6 +159,13 @@ export default function Partner(){
                         </a>
                         <p className="py-2 text-center"> 阿爾發機器人理財 </p>
                     </div>
+                    <div className="d-flex flex-column" style={{width: "250px"}}>
+                        <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3 gap-3" style={{height: "250px"}} href="https://www.tca.org.tw/" target="_blank">
+                            <img className="w-100" src="./logo/tca-logo.png" />
+                            <img className="w-100" src="./logo/tca-ad.jpg" />
+                        </a>
+                        <p className="py-2 text-center"> 臺北市電腦商業同業公會 </p>
+                    </div>
                 </div>
             </div>
         </div>

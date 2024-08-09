@@ -153,7 +153,7 @@ export default function Agenda(){
                                             <td className="bg-success-subtle border border-black col-1">
                                                 <span>Session C1</span>
                                                 <br></br>
-                                                <span>密碼學與認證協定 I</span>
+                                                <span>軟體安全</span>
                                             </td>
                                             <td className="bg-success-subtle border border-black col-1">
                                                 <span>Session D1</span>
@@ -209,17 +209,17 @@ export default function Agenda(){
                                             <td className="bg-danger-subtle border border-black col-1">
                                                 <span>Session A2</span>
                                                 <br></br>
-                                                <span>人工智慧與機器學習安全 I</span>
+                                                <span>密碼學</span>
                                             </td>
                                             <td className="bg-warning-subtle border border-black col-1">
                                                 <span>Session B2</span>
                                                 <br></br>
-                                                <span>數位鑑識與惡意程式分析</span>
+                                                <span>網路安全</span>
                                             </td>
                                             <td className="bg-success-subtle border border-black col-1">
                                                 <span>Session C2</span>
                                                 <br></br>
-                                                <span>密碼學與認證協定 II</span>
+                                                <span>資安檢測</span>
                                             </td>
                                             <td className="bg-success-subtle border border-black col-1">
                                                 <span>Session D2</span>
@@ -382,17 +382,17 @@ export default function Agenda(){
                                             <td className="bg-danger-subtle border border-black col-1">
                                                 <span>Session A3</span>
                                                 <br></br>
-                                                <span>網路與多媒體安全 I</span>
+                                                <span>區塊鏈</span>
                                             </td>
                                             <td className="bg-warning-subtle border border-black col-1">
                                                 <span>Session B3</span>
                                                 <br></br>
-                                                <span>資料隱私與保護技術</span>
+                                                <span>AI 安全與情資</span>
                                             </td>
                                             <td className="bg-success-subtle border border-black col-1">
                                                 <span>Session C3</span>
                                                 <br></br>
-                                                <span>雲端與物聯網安全 I</span>
+                                                <span>零信任與身份認證</span>
                                             </td>
                                             <td className="bg-success-subtle border border-black col-1">
                                                 <span>Session D3</span>
@@ -465,22 +465,17 @@ export default function Agenda(){
                                             <td className="bg-danger-subtle border border-black col-1">
                                                 <span>Session A4</span>
                                                 <br></br>
-                                                <span>網路與多媒體安全 II</span>
+                                                <span>關鍵基礎建設</span>
                                             </td>
                                             <td className="bg-warning-subtle border border-black col-1">
                                                 <span>Session B4</span>
                                                 <br></br>
-                                                <span>人工智慧與機器學習安全 II</span>
+                                                <span>多媒體安全</span>
                                             </td>
                                             <td className="bg-success-subtle border border-black col-1">
                                                 <span>Session C4</span>
                                                 <br></br>
-                                                <span>雲端與物聯網安全 II</span>
-                                            </td>
-                                            <td className="bg-success-subtle border border-black col-1">
-                                                <span>Session D4</span>
-                                                <br></br>
-                                                <span>閃電講</span>
+                                                <span>隱私技術與其他</span>
                                             </td>
                                         </tr>
                                         <tr className="w-100">
@@ -488,9 +483,6 @@ export default function Agenda(){
                                                 <br></br>
                                             </td>
                                             <td className="bg-warning-subtle border border-black col-1">
-                                                <br></br>
-                                            </td>
-                                            <td className="bg-success-subtle border border-black col-1">
                                                 <br></br>
                                             </td>
                                             <td className="bg-success-subtle border border-black col-1">
