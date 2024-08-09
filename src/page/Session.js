@@ -569,9 +569,6 @@ export default function Session(){
                         </table>
                     )
                 })}
-                <div className="w-100">
-                    <button className="p-2 btn btn-success text-white w-100 shadow"> Download PDF</button>
-                </div>
             </div>
         </div>
     )
