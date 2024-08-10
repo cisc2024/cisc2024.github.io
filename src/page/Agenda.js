@@ -67,6 +67,10 @@ export default function Agenda(){
                                 <span>演講題目：</span>
                                 <br/> 
                                 <span>主持人：范俊逸 理事長</span>
+                                <br/> 
+                                <a href="/#/Agenda/Keynote1">
+                                    <button className="btn btn-primary w-100 mt-3">詳細資訊</button>
+                                </a>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom text-nowrap" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>
@@ -180,7 +184,6 @@ export default function Agenda(){
                                         </tr>
                                     </tbody>
                                 </table>
-                                <p className="text-start ms-3">※閃電講 D1：一篇論文八分鐘演講，不提問</p>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>
@@ -247,7 +250,6 @@ export default function Agenda(){
                                         </tr>
                                     </tbody>
                                 </table>
-                                <p className="text-start ms-3">※閃電講 D2：一篇論文八分鐘演講，不提問</p>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>
@@ -421,7 +423,6 @@ export default function Agenda(){
                                         </tr>
                                     </tbody>
                                 </table>
-                                <p className="text-start ms-3">※閃電講 D3：一篇論文八分鐘演講，不提問</p>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>

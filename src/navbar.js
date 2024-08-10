@@ -7,7 +7,7 @@ export default function Navbar(){
                 <div class="container">
                     <Link class="navbar-brand d-flex gap-2" to={"/"}>
                         <img src="https://cnc.ntut.edu.tw/var/file/4/1004/img/1544/Taipei-Tech-Logo.png" alt="Bootstrap" width="50"></img>
-                        <span className="my-auto" style={{fontSize: "0.9em"}}>第三十四屆全國資訊安全會議</span>
+                        <span className="my-auto" style={{fontSize: "0.8em"}}>第三十四屆全國資訊安全會議</span>
                     </Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>

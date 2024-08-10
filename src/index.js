@@ -18,6 +18,7 @@ import Accommodation from './page/Accommodation';
 import CampusMap from './page/CampusMap';
 import Partner from './page/Partner';
 import Apply from "./page/Apply"
+import Keynote1 from './page/agendas/Keynote1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -32,6 +33,7 @@ root.render(
           <Route path='/Organization' element={<Organization />}></Route>
           <Route path='/Information' element={<Information />}></Route>
           <Route path='/Agenda' element={<Agenda />}></Route>
+          <Route path='/Agenda/Keynote1' element={<Keynote1 />}></Route>
           <Route path='/Travel' element={<Travel />}></Route>
           <Route path='/Session' element={<Session />}></Route>
           <Route path='/Paper' element={<Paper />}></Route>
