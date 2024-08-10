@@ -243,8 +243,8 @@ export default function Session(){
                             title: "功率分群洩漏分析 (Power Grouping Leakage Analysis : PGLA)"
                         },
                         {
-                            author: "李佳叡、賴俊鳴、張尊傑",
-                            title: "Blockchain-based Time Banking System: Enabling Senior Mutual Aid in Long-Term Care Organizations with Hyperledger Fabric"
+                            author: "Huai-Sheng Ku, Yu-Cheng Chiang, Chia-Hsiu Huang, Albert Guan and Po-Wen Chi",
+                            title: "APT Detection Preprocessing: Configure Auditd and Extract User Behavior"
                         },
                         {
                             author: "Ying-Ren Guo, Yi-Ting Huang and Meng Chang Chen",
@@ -352,10 +352,6 @@ export default function Session(){
                         {
                             author: "Isaac Lee and Shih Wei Liao",
                             title: "從美國零信任戰略規劃談我國零信任架構實施方向"
-                        },
-                        {
-                            author: "楊舒蓁、羅嘉寧、楊明豪",
-                            title: "EMV網路交易之使用者FIDO身分驗證設計與改良"
                         },
                         {
                             author: "周兆龍、朱秉聰、劉得民、呂理哲",
