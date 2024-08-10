@@ -4,10 +4,6 @@ export default function Agenda(){
             <div className="w-100 p-5">
                 <h1 className="text-center">會議議程</h1>
             </div>
-            {/* <div className="alert alert-warning d-flex flex-column gap-3">
-                <h4 className="fw-bold text-center">論文發表規則</h4>
-                <span className="text-center">每人發表時間 ？ 分鐘 、？ 分鐘舉牌提醒、？ 分鐘按鈴提醒、？ 分鐘由主持人提問。</span>
-            </div> */}
             <div className="w-100 gap-5 mb-5 overflow-auto">
                 <table className="table table-borderless col-md-12 shadow" cellPadding={0} cellSpacing={0}>
                     <tbody>
@@ -16,7 +12,7 @@ export default function Agenda(){
                         </tr>
                         <tr className="text-black" style={{backgroundColor: "#B0BEC5"}}>
                             <th scope="col" className="p-3 text-center col-2" style={{backgroundColor: "#FFE082"}}>時間</th>
-                            <th scope="col" className="p-3 text-center col-3" style={{backgroundColor: "#FFE082"}}>內容</th>
+                            <th scope="col" className="p-3 text-center col-5" style={{backgroundColor: "#FFE082"}}>內容</th>
                             <th scope="col" className="p-3 text-center col-2" style={{backgroundColor: "#FFE082"}}>地點</th>
                         </tr>
                         <tr className="text-black">
@@ -177,6 +173,7 @@ export default function Agenda(){
                                         </tr>
                                     </tbody>
                                 </table>
+                                <p className="text-start ms-3">※閃電講 D1：一篇論文八分鐘演講，不提問</p>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>
@@ -243,6 +240,7 @@ export default function Agenda(){
                                         </tr>
                                     </tbody>
                                 </table>
+                                <p className="text-start ms-3">※閃電講 D2：一篇論文八分鐘演講，不提問</p>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>
@@ -270,7 +268,7 @@ export default function Agenda(){
                         </tr>
                         <tr className="text-black" style={{backgroundColor: "#B0BEC5"}}>
                             <th scope="col" className="p-3 text-center col-2" style={{backgroundColor: "#FFE082"}}>時間</th>
-                            <th scope="col" className="p-3 text-center col-3" style={{backgroundColor: "#FFE082"}}>內容</th>
+                            <th scope="col" className="p-3 text-center col-5" style={{backgroundColor: "#FFE082"}}>內容</th>
                             <th scope="col" className="p-3 text-center col-2" style={{backgroundColor: "#FFE082"}}>地點</th>
                         </tr>
                         <tr className="text-black">
@@ -416,6 +414,7 @@ export default function Agenda(){
                                         </tr>
                                     </tbody>
                                 </table>
+                                <p className="text-start ms-3">※閃電講 D3：一篇論文八分鐘演講，不提問</p>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>
