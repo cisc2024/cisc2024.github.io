@@ -227,10 +227,6 @@ export default function Session(){
                         {
                             author: "Xin-Ye Jiang and Chun-Ying Huang",
                             title: "對5G核心網路進行覆蓋率引導灰箱模糊測試"
-                        },
-                        {
-                            author: "王紹睿、陳冠霖、黃竣揮、廖元揚",
-                            title: "基於自然語言處理及對抗式學習的惡意憑證偵測"
                         }
                     ]
                 },
@@ -243,8 +239,8 @@ export default function Session(){
                             title: "功率分群洩漏分析 (Power Grouping Leakage Analysis : PGLA)"
                         },
                         {
-                            author: "Huai-Sheng Ku, Yu-Cheng Chiang, Chia-Hsiu Huang, Albert Guan and Po-Wen Chi",
-                            title: "APT Detection Preprocessing: Configure Auditd and Extract User Behavior"
+                            author: "王紹睿、陳冠霖、黃竣揮、廖元揚",
+                            title: "基於自然語言處理及對抗式學習的惡意憑證偵測"
                         },
                         {
                             author: "Ying-Ren Guo, Yi-Ting Huang and Meng Chang Chen",
