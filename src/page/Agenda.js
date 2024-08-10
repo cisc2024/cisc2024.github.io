@@ -5,6 +5,13 @@ export default function Agenda(){
                 <h1 className="text-center">會議議程</h1>
             </div>
             <div className="w-100 gap-5 mb-5 overflow-auto">
+                <div className="alert alert-warning">
+                    <p className="fw-bold">論文發表規則</p>
+                    <ul className="mb-0">
+                        <li>A、B、C場次，每人發表時間15分鐘(報告時間12分鐘、3分鐘由主持人提問)，8分鐘舉牌提醒、11分鐘按鈴提醒。</li>
+                        <li>閃電講D場次，每人發表時間8分鐘(主持人不提問)，5分鐘舉牌提醒、7分鐘按鈴提醒。</li>
+                    </ul>
+                </div>
                 <table className="table table-borderless col-md-12 shadow" cellPadding={0} cellSpacing={0}>
                     <tbody>
                         <tr className="text-white" colspan="4">

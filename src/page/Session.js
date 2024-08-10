@@ -1,7 +1,7 @@
 export default function Session(){
     const datas = [
         {
-            date: "2024 年 8 月 29 日（星期四）14:20-15:40",
+            date: "2024 年 8 月 29 日（星期四）14:20-15:50",
             children: [
                 {
                     id: "A1",
@@ -516,7 +516,14 @@ export default function Session(){
             <div className="w-100 p-5">
                     <h1 className="text-center">論文發表場次</h1>
             </div>
-            <div className="d-flex flex-column gap-5 mb-5">
+            <div className="d-flex flex-column gap-3 mb-5">
+                <div className="alert alert-warning">
+                    <p className="fw-bold">論文發表規則</p>
+                    <ul className="mb-0">
+                        <li>A、B、C場次，每人發表時間15分鐘(報告時間12分鐘、3分鐘由主持人提問)，8分鐘舉牌提醒、11分鐘按鈴提醒。</li>
+                        <li>閃電講D場次，每人發表時間8分鐘(主持人不提問)，5分鐘舉牌提醒、7分鐘按鈴提醒。</li>
+                    </ul>
+                </div>
                 { datas.map((data) => {
                     return (
                         <table className="table table-border border col-md-12 shadow" cellPadding={0} cellSpacing={0}>
