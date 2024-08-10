@@ -64,7 +64,7 @@ export default function Agenda(){
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span className="fw-bold">Keynote 演講（一）主講人：謝續平 終身講座教授（國立陽明交通大學）</span>
                                 <br/>
-                                <span>演講題目：</span>
+                                <span>演講題目：Mastering Reliability, Security, and Trust in the Digital Age</span>
                                 <br/> 
                                 <span>主持人：范俊逸 理事長</span>
                                 <br/> 
