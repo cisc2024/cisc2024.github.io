@@ -52,7 +52,7 @@ export default function Agenda(){
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>
                                 <br/>
-                                <span>國際會議廳</span>
+                                <span>3F 國際會議廳</span>
                             </td>
                         </tr>
                         <tr className="text-black">
@@ -75,7 +75,7 @@ export default function Agenda(){
                             <td className="p-3 text-center align-middle border-end border-bottom text-nowrap" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>
                                 <br/>
-                                <span>國際會議廳</span>
+                                <span>3F 國際會議廳</span>
                             </td>
                         </tr>
                         <tr className="text-black">
@@ -101,7 +101,7 @@ export default function Agenda(){
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>
                                 <br/>
-                                <span>國際會議廳</span>
+                                <span>3F 國際會議廳</span>
                             </td>
                         </tr>
                         <tr className="text-black">
@@ -131,7 +131,7 @@ export default function Agenda(){
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>
                                 <br/>
-                                <span>國際會議廳</span>
+                                <span>3F 國際會議廳</span>
                             </td>
                         </tr>
                         <tr className="text-black">
@@ -186,7 +186,13 @@ export default function Agenda(){
                                 </table>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <span>先鋒科技大樓</span>
+                                <div className="d-flex flex-column">
+                                    <span>先鋒科技大樓 4F</span>
+                                    <span>Session A1：4F 401</span>
+                                    <span>Session B1：4F 402</span>
+                                    <span>Session C1：4F 403</span>
+                                    <span>Session D1：4F 404</span>
+                                </div>
                             </td>
                         </tr>
                         <tr className="text-black">
@@ -252,7 +258,13 @@ export default function Agenda(){
                                 </table>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <span>先鋒科技大樓</span>
+                                <div className="d-flex flex-column">
+                                    <span>先鋒科技大樓 4F</span>
+                                    <span>Session A2：4F 401</span>
+                                    <span>Session B2：4F 402</span>
+                                    <span>Session C2：4F 403</span>
+                                    <span>Session D2：4F 404</span>
+                                </div>
                             </td>
                         </tr>
                         <tr className="text-black">
@@ -309,11 +321,15 @@ export default function Agenda(){
                                 <span>演講題目：</span>
                                 <br/> 
                                 <span>主持人：左瑞麟 教授</span>
+                                <br/>
+                                <a href="/#/Agenda/Keynote2">
+                                    <button className="btn btn-primary w-100 mt-3">詳細資訊</button>
+                                </a>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom text-nowrap" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>
                                 <br/>
-                                <span>國際會議廳</span>
+                                <span>3F 國際會議廳</span>
                             </td>
                         </tr>
                         <tr className="text-black">
@@ -334,7 +350,7 @@ export default function Agenda(){
                                 </div>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <span className="fw-bold">Invited 演講（一）主講人：Srinivas Shekar (Pantherun Technologies)</span>
+                                <span className="fw-bold">Invited 演講（一）主講人：Matthias J. Kannwischer (Chelpis)</span>
                                 <br/>
                                 <span>演講題目：</span>
                                 <br/>
@@ -343,7 +359,7 @@ export default function Agenda(){
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>
                                 <br/>
-                                <span>國際會議廳</span>
+                                <span>3F 國際會議廳</span>
                             </td>
                         </tr>
                         <tr className="text-black">
@@ -354,12 +370,14 @@ export default function Agenda(){
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom d-flex flex-column" style={{backgroundColor: "#FFFFFF"}}>
                                 <span className="fw-bold">企業系列演講</span>
-                                <span className="fw-bold">安華聯網</span>
+                                <span>講者姓名：潘勤強</span>
+                                <span>職稱與單位：技術服務處副處長 / 安華聯網科技（德凱集團成員）</span>
+                                <span>演講主題：全球熱門資安法規及相關標準介紹</span>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>
                                 <br/>
-                                <span>國際會議廳</span>
+                                <span>3F 國際會議廳</span>
                             </td>
                         </tr>
                         <tr className="text-black">
@@ -425,7 +443,13 @@ export default function Agenda(){
                                 </table>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <span>先鋒科技大樓</span>
+                                <div className="d-flex flex-column">
+                                    <span>先鋒科技大樓 4F</span>
+                                    <span>Session A3：4F 401</span>
+                                    <span>Session B3：4F 402</span>
+                                    <span>Session C3：4F 403</span>
+                                    <span>Session D3：4F 404</span>
+                                </div>
                             </td>
                         </tr>
                         <tr className="text-black">
@@ -442,18 +466,37 @@ export default function Agenda(){
                         <tr className="text-black">
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <div className="my-auto">
-                                    <span>14:50-15:40</span>
+                                    <span>14:50-15:20</span>
                                 </div>
                             </td>
-                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
+                            <td className="p-3 text-center align-middle border-end border-bottom d-flex flex-column" style={{backgroundColor: "#FFFFFF"}}>
                                 <span className="fw-bold">企業系列演講</span>
-                                <br/>
-                                <span className="fw-bold">亞利安、果核</span>
+                                <span>講者姓名：蕭詔安</span>
+                                <span>職稱與單位：資安服務部 部門經理／果核數位股份有限公司</span>
+                                <span>演講主題：從市場需求到人才招募</span>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>
                                 <br/>
-                                <span>國際會議廳</span>
+                                <span>3F 國際會議廳</span>
+                            </td>
+                        </tr>
+                        <tr className="text-black">
+                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
+                                <div className="my-auto">
+                                    <span>15:20-15:35</span>
+                                </div>
+                            </td>
+                            <td className="p-3 text-center align-middle border-end border-bottom d-flex flex-column" style={{backgroundColor: "#FFFFFF"}}>
+                                <span className="fw-bold">企業系列演講</span>
+                                <span>講者姓名：郭仕杰</span>
+                                <span>職稱與單位：技術暨雲端事業部經理／亞利安科技</span>
+                                <span>演講主題：讓 AI 帶著你發現雲的未知風險－雲端原生應用程式防護平台（CNAPP）</span>
+                            </td>
+                            <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
+                                <span>先鋒科技大樓</span>
+                                <br/>
+                                <span>3F 國際會議廳</span>
                             </td>
                         </tr>
                         <tr className="text-black">
@@ -500,7 +543,12 @@ export default function Agenda(){
                                 </table>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <span>先鋒科技大樓</span>
+                                <div className="d-flex flex-column">
+                                    <span>先鋒科技大樓 4F</span>
+                                    <span>Session A4：4F 401</span>
+                                    <span>Session B4：4F 402</span>
+                                    <span>Session C4：4F 403</span>
+                                </div>
                             </td>
                         </tr>
                         <tr className="text-black">

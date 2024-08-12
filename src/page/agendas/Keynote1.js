@@ -5,10 +5,12 @@ export default function Keynote1(){
                 <h1 className="text-center mb-5">Keynote 演講（一）細節資訊</h1>
                 <h4 className="text-center">講者資訊</h4>
                 <div className="d-flex flex-column flex-md-row gap-5">
-                    <div className="mx-auto">
-                        <img width={150} height={"auto"} src="https://www.cs.nycu.edu.tw/storage/avatars/sSwPaFV6KyAJ0kyjfKHTxi5YlOYcZLygH8306wWi.png"></img>
+                    <div className="col-12 col-md-3 d-flex flex-row justify-content-center">
+                        <div className="mx-auto">
+                            <img width={150} height={"auto"} src="https://www.cs.nycu.edu.tw/storage/avatars/sSwPaFV6KyAJ0kyjfKHTxi5YlOYcZLygH8306wWi.png"></img>
+                        </div>
                     </div>
-                    <div>
+                    <div className="col-12 col-md-9">
                         <p>講者：謝續平 教授</p>
                         <ul>
                             <li>國立陽明交通大學終身講座教授</li>
