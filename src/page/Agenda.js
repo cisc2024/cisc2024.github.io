@@ -124,9 +124,13 @@ export default function Agenda(){
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span className="fw-bold">產業趨勢演講 主講人：翁浩正 執行長（戴夫寇爾）</span>
                                 <br/>
-                                <span>演講題目：</span>
+                                <span>演講題目：如何善用紅隊演練應對威脅</span>
                                 <br/>
                                 <span>主持人：陳昱圻</span>
+                                <br/>
+                                <a href="/#/Agenda/Industry1">
+                                    <button className="btn btn-primary w-100 mt-3">詳細資訊</button>
+                                </a>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>
@@ -350,11 +354,15 @@ export default function Agenda(){
                                 </div>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <span className="fw-bold">Invited 演講（一）主講人：Matthias J. Kannwischer (Chelpis)</span>
+                                <span className="fw-bold">邀請演講（一）主講人：Matthias J. Kannwischer (Chelpis)</span>
                                 <br/>
-                                <span>演講題目：</span>
+                                <span>演講題目：Accelerating lattice-based cryptography using constraint solving</span>
                                 <br/>
                                 <span>主持人：陳昱圻</span>
+                                <br/>
+                                <a href="/#/Agenda/Invited">
+                                    <button className="btn btn-primary w-100 mt-3">詳細資訊</button>
+                                </a>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>
@@ -369,7 +377,7 @@ export default function Agenda(){
                                 </div>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom d-flex flex-column" style={{backgroundColor: "#FFFFFF"}}>
-                                <span className="fw-bold">企業系列演講</span>
+                                <span className="fw-bold">企業系列演講（一）</span>
                                 <span>講者姓名：潘勤強</span>
                                 <span>職稱與單位：技術服務處副處長 / 安華聯網科技（德凱集團成員）</span>
                                 <span>演講主題：全球熱門資安法規及相關標準介紹</span>
@@ -470,10 +478,10 @@ export default function Agenda(){
                                 </div>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom d-flex flex-column" style={{backgroundColor: "#FFFFFF"}}>
-                                <span className="fw-bold">企業系列演講</span>
-                                <span>講者姓名：蕭詔安</span>
-                                <span>職稱與單位：資安服務部 部門經理／果核數位股份有限公司</span>
-                                <span>演講主題：從市場需求到人才招募</span>
+                                <span className="fw-bold">企業系列演講（二）</span>
+                                <span>講者姓名：郭仕杰</span>
+                                <span>職稱與單位：技術暨雲端事業部經理／亞利安科技</span>
+                                <span>演講主題：讓 AI 帶著你發現雲的未知風險－雲端原生應用程式防護平台（CNAPP）</span>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>
@@ -488,10 +496,10 @@ export default function Agenda(){
                                 </div>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom d-flex flex-column" style={{backgroundColor: "#FFFFFF"}}>
-                                <span className="fw-bold">企業系列演講</span>
-                                <span>講者姓名：郭仕杰</span>
-                                <span>職稱與單位：技術暨雲端事業部經理／亞利安科技</span>
-                                <span>演講主題：讓 AI 帶著你發現雲的未知風險－雲端原生應用程式防護平台（CNAPP）</span>
+                                <span className="fw-bold">企業系列演講（三）</span>
+                                <span>講者姓名：蕭詔安</span>
+                                <span>職稱與單位：資安服務部 部門經理／果核數位股份有限公司</span>
+                                <span>演講主題：從市場需求到人才招募</span>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>

@@ -122,7 +122,7 @@ export default function Session(){
                             title: "以重構誤差與孤立森林偵測未知分散式阻斷服務攻擊"
                         },
                         {
-                            author: "林于翔、謝欽旭、洪盟峰、郭敦詠",
+                            author: "林于翔、謝欽旭、洪盟峰、廖佑晟",
                             title: "採行增強型自動編碼器和長短期記憶網路的惡意流量偵測技術 以IEC-61850網路為例 A New Approach based on Enhanced Autoencoder and LSTM to Intrusion Detection in IEC-61850 Networks"
                         },
                         {

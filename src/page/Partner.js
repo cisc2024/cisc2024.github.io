@@ -157,7 +157,7 @@ export default function Partner(){
                         <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3" style={{height: "250px"}} href="https://roboadvisor.com.tw/" target="_blank">
                             <img className="w-100" src="./logo/alpha-logo.png" />
                         </a>
-                        <p className="py-2 text-center"> 阿爾發機器人理財 </p>
+                        <p className="py-2 text-center"> 阿爾發金融科技公司 </p>
                     </div>
                     <div className="d-flex flex-column" style={{width: "250px"}}>
                         <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3 gap-3" style={{height: "250px"}} href="https://www.tca.org.tw/" target="_blank">
