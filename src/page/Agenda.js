@@ -46,8 +46,11 @@ export default function Agenda(){
                                 </div>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom d-flex flex-column" style={{backgroundColor: "#FFFFFF"}}>
-                                <span className="fw-bold">開幕：王錫福 校長（國立臺北科技大學）</span>
-                                <span className="fw-bold">范俊逸 理事長（資訊安全學會）</span>
+                                <span className="fw-bold">開幕</span>
+                                <span className="">王錫福 校長（國立臺北科技大學）</span>
+                                <span className="">范俊逸 理事長（資訊安全學會）</span>
+                                <span className="">鄭欣明 副署長（數位發展部資通安全署）</span>
+                                <span className="">楊士萱 副校長（國立臺北科技大學）</span>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span>先鋒科技大樓</span>
@@ -66,7 +69,7 @@ export default function Agenda(){
                                 <br/>
                                 <span>演講題目：Mastering Reliability, Security, and Trust in the Digital Age</span>
                                 <br/> 
-                                <span>主持人：范俊逸 理事長</span>
+                                <span>主持人：范俊逸 教授</span>
                                 <br/> 
                                 <a href="/#/Agenda/Keynote1">
                                     <button className="btn btn-primary w-100 mt-3">詳細資訊</button>
@@ -126,7 +129,7 @@ export default function Agenda(){
                                 <br/>
                                 <span>演講題目：如何善用紅隊演練應對威脅</span>
                                 <br/>
-                                <span>主持人：陳昱圻</span>
+                                <span>主持人：陳昱圻 教授</span>
                                 <br/>
                                 <a href="/#/Agenda/Industry1">
                                     <button className="btn btn-primary w-100 mt-3">詳細資訊</button>
@@ -147,7 +150,7 @@ export default function Agenda(){
                                 </div>
                             </td>
                             <td className="p-0 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <p className="fw-bold pt-3">論文發表（一）</p>
+                                <p className="fw-bold pt-3">論文發表（一）／場次主持人</p>
                                 <table className="table table-borderless col-md-12" cellPadding={0} cellSpacing={0}>
                                     <tbody>
                                         <tr className="w-100">
@@ -174,16 +177,16 @@ export default function Agenda(){
                                         </tr>
                                         <tr className="w-100">
                                             <td className="bg-danger-subtle border border-black col-1">
-                                                <br></br>
+                                                <span>郭崇韋教授</span>
                                             </td>
                                             <td className="bg-warning-subtle border border-black col-1">
-                                                <br></br>
+                                                <span>游家牧教授</span>
                                             </td>
                                             <td className="bg-success-subtle border border-black col-1">
-                                                <br></br>
+                                                <span>王紹睿教授</span>
                                             </td>
                                             <td className="bg-success-subtle border border-black col-1">
-                                                <br></br>
+                                                <span>莊允心教授</span>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -219,7 +222,7 @@ export default function Agenda(){
                                 </div>
                             </td>
                             <td className="p-0 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <p className="fw-bold pt-3">論文發表（二）</p>
+                                <p className="fw-bold pt-3">論文發表（二）／場次主持人</p>
                                 <table className="table table-borderless col-md-12" cellPadding={0} cellSpacing={0}>
                                     <tbody>
                                         <tr className="w-100">
@@ -246,16 +249,16 @@ export default function Agenda(){
                                         </tr>
                                         <tr className="w-100">
                                             <td className="bg-danger-subtle border border-black col-1">
-                                                <br></br>
+                                                <span>曾一凡教授</span>
                                             </td>
                                             <td className="bg-warning-subtle border border-black col-1">
-                                                <br></br>
+                                                <span>魏銪志教授</span>
                                             </td>
                                             <td className="bg-success-subtle border border-black col-1">
-                                                <br></br>
+                                                <span>官振傑教授</span>
                                             </td>
                                             <td className="bg-success-subtle border border-black col-1">
-                                                <br></br>
+                                                <span>蔡國裕教授</span>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -322,7 +325,7 @@ export default function Agenda(){
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
                                 <span className="fw-bold">Keynote 演講（二）主講人：Prof. Kazue Sako (早稻田大學)</span>
                                 <br/>
-                                <span>演講題目：</span>
+                                <span>演講題目：Digital Identity and Cryptography</span>
                                 <br/> 
                                 <span>主持人：左瑞麟 教授</span>
                                 <br/>
@@ -354,11 +357,11 @@ export default function Agenda(){
                                 </div>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <span className="fw-bold">邀請演講（一）主講人：Matthias J. Kannwischer (Chelpis)</span>
+                                <span className="fw-bold">邀請演講（一）主講人：Dr. Matthias J. Kannwischer (Chelpis)</span>
                                 <br/>
                                 <span>演講題目：Accelerating lattice-based cryptography using constraint solving</span>
                                 <br/>
-                                <span>主持人：陳昱圻</span>
+                                <span>主持人：陳昱圻 教授</span>
                                 <br/>
                                 <a href="/#/Agenda/Invited">
                                     <button className="btn btn-primary w-100 mt-3">詳細資訊</button>
@@ -408,7 +411,7 @@ export default function Agenda(){
                                 </div>
                             </td>
                             <td className="p-0 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <p className="fw-bold pt-3">論文發表（三）</p>
+                                <p className="fw-bold pt-3">論文發表（三）／場次主持人</p>
                                 <table className="table table-borderless col-md-12" cellPadding={0} cellSpacing={0}>
                                     <tbody>
                                         <tr className="w-100 overflow-auto">
@@ -435,16 +438,16 @@ export default function Agenda(){
                                         </tr>
                                         <tr className="w-100">
                                             <td className="bg-danger-subtle border border-black col-1">
-                                                <br></br>
+                                                <span>徐瑞壕教授</span>
                                             </td>
                                             <td className="bg-warning-subtle border border-black col-1">
-                                                <br></br>
+                                                <span>黃正達教授</span>
                                             </td>
                                             <td className="bg-success-subtle border border-black col-1">
-                                                <br></br>
+                                                <span>劉奕賢教授</span>
                                             </td>
                                             <td className="bg-success-subtle border border-black col-1">
-                                                <br></br>
+                                                <span>蔡東佐教授</span>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -516,7 +519,7 @@ export default function Agenda(){
                                 </div>
                             </td>
                             <td className="p-0 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <p className="fw-bold pt-3">論文發表（四）</p>
+                                <p className="fw-bold pt-3">論文發表（四）／場次主持人</p>
                                 <table className="table table-borderless col-md-12" cellPadding={0} cellSpacing={0}>
                                     <tbody>
                                         <tr className="w-100">
@@ -538,13 +541,13 @@ export default function Agenda(){
                                         </tr>
                                         <tr className="w-100">
                                             <td className="bg-danger-subtle border border-black col-1">
-                                                <br></br>
+                                                <span>紀博文教授</span>
                                             </td>
                                             <td className="bg-warning-subtle border border-black col-1">
-                                                <br></br>
+                                                <span>洪維恩教授</span>
                                             </td>
                                             <td className="bg-success-subtle border border-black col-1">
-                                                <br></br>
+                                                <span>張世豪教授</span>
                                             </td>
                                         </tr>
                                     </tbody>
