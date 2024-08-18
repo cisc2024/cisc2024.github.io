@@ -281,7 +281,7 @@ export default function Agenda(){
                                 </div>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}>
-                                <span className="fw-bold">晚宴</span>
+                                <span className="fw-bold">晚宴（<a href="https://www.fullon-hotels.com.tw/tp/tw/" target="_blank" rel="noreferrer">福容大飯店臺北一館</a>）</span>
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom" style={{backgroundColor: "#FFFFFF"}}></td>
                         </tr>
