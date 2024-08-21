@@ -179,6 +179,14 @@ export default function Partner(){
                         <p className="py-2 text-center"> 行動應用資安聯盟 </p>
                     </div>
                 </div>
+                <div className="py-2 d-flex gap-5">
+                    <div className="d-flex flex-column" style={{width: "250px"}}>
+                        <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3" style={{height: "250px"}} href="https://paysecure.com.tw/index.html" target="_blank">
+                            <img className="w-100" src="./logo/paysecure-logo.png" />
+                        </a>
+                        <p className="py-2 text-center"> 聯宏科技股份有限公司 </p>
+                    </div>
+                </div>
             </div>
         </div>
     )

@@ -129,7 +129,7 @@ export default function Agenda(){
                                 <br/>
                                 <span>演講題目：如何善用紅隊演練應對威脅</span>
                                 <br/>
-                                <span>主持人：陳昱圻 教授</span>
+                                <span>主持人：羅乃維教授</span>
                                 <br/>
                                 <a href="/#/Agenda/Industry1">
                                     <button className="btn btn-primary w-100 mt-3">詳細資訊</button>
