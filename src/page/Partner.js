@@ -71,7 +71,7 @@ export default function Partner(){
                         <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3" style={{height: "250px"}} href="https://www.nchc.org.tw/" target="_blank">
                             <img className="w-100" src="./logo/nchc-logo.png" />
                         </a>
-                        <p className="py-2 text-center"> 財團法人國家實驗研究院國家高速網路資訊中心 </p>
+                        <p className="py-2 text-center"> 高速網路與計算中心 </p>
                     </div>
                 </div>
                 <div className="py-2 d-flex gap-5">
@@ -102,6 +102,12 @@ export default function Partner(){
                 </div>
                 <div className="py-2 d-flex gap-5">
                     <div className="d-flex flex-column" style={{width: "250px"}}>
+                        <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3" style={{height: "250px"}} href="https://paysecure.com.tw/index.html" target="_blank">
+                            <img className="w-100" src="./logo/paysecure-logo.png" />
+                        </a>
+                        <p className="py-2 text-center"> 聯宏科技股份有限公司 </p>
+                    </div>
+                    <div className="d-flex flex-column" style={{width: "250px"}}>
                         <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3" style={{height: "250px"}} href="https://www.easycard.com.tw/" target="_blank">
                             <img className="w-100" src="./logo/easycard-logo.png" />
                         </a>
@@ -119,14 +125,14 @@ export default function Partner(){
                         </a>
                         <p className="py-2 text-center"> 奧義智慧科技 </p>
                     </div>
+                </div>
+                <div className="py-2 d-flex gap-5">
                     <div className="d-flex flex-column" style={{width: "250px"}}>
                         <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3" style={{height: "250px"}} href="https://www.104.com.tw/" target="_blank">
                             <img className="w-100" src="./logo/104-logo.png" />
                         </a>
                         <p className="py-2 text-center"> 一零四資訊科技股份有限公司 </p>
                     </div>
-                </div>
-                <div className="py-2 d-flex gap-5">
                     <div className="d-flex flex-column" style={{width: "250px"}}>
                         <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3" style={{height: "250px"}} href="https://www.facebook.com/ITRI.ICL/?locale=zh_TW" target="_blank">
                             <img className="w-100" src="./logo/itri-logo.jpg" />
@@ -145,14 +151,14 @@ export default function Partner(){
                         </a>
                         <p className="py-2 text-center"> 財團法人資訊工業策進會 </p>
                     </div>
+                </div>
+                <div className="py-2 d-flex gap-5">
                     <div className="d-flex flex-column" style={{width: "250px"}}>
                         <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3 gap-3" style={{height: "250px"}} href="https://www.onwardsecurity.com/" target="_blank">
                             <img className="w-100" src="./logo/cht-logo.png" />
                         </a>
                         <p className="py-2 text-center"> 中華電信股份有限公司電信研究院 </p>
                     </div> 
-                </div>
-                <div className="py-2 d-flex gap-5">
                     <div className="d-flex flex-column" style={{width: "250px"}}>
                         <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3" style={{height: "250px"}} href="https://roboadvisor.com.tw/" target="_blank">
                             <img className="w-100" src="./logo/alpha-logo.png" />
@@ -172,19 +178,13 @@ export default function Partner(){
                         </a>
                         <p className="py-2 text-center"> 異術科技股份有限公司 </p>
                     </div>
+                </div>
+                <div className="py-2 d-flex gap-5">
                     <div className="d-flex flex-column" style={{width: "250px"}}>
                         <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3" style={{height: "250px"}} href="https://www.mas.org.tw/" target="_blank">
                             <img className="w-100" src="./logo/masa-logo.jpg" />
                         </a>
                         <p className="py-2 text-center"> 行動應用資安聯盟 </p>
-                    </div>
-                </div>
-                <div className="py-2 d-flex gap-5">
-                    <div className="d-flex flex-column" style={{width: "250px"}}>
-                        <a className="w-100p-5 mx-auto d-flex flex-column justify-content-center p-3" style={{height: "250px"}} href="https://paysecure.com.tw/index.html" target="_blank">
-                            <img className="w-100" src="./logo/paysecure-logo.png" />
-                        </a>
-                        <p className="py-2 text-center"> 聯宏科技股份有限公司 </p>
                     </div>
                 </div>
             </div>
