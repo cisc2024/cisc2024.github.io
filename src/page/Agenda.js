@@ -47,8 +47,10 @@ export default function Agenda(){
                             </td>
                             <td className="p-3 text-center align-middle border-end border-bottom d-flex flex-column" style={{backgroundColor: "#FFFFFF"}}>
                                 <span className="fw-bold">開幕</span>
+                                <span className="">李德財 院士（中央研究院）</span>
                                 <span className="">王錫福 校長（國立臺北科技大學）</span>
                                 <span className="">范俊逸 理事長（資訊安全學會）</span>
+                                <span className="">何全德 院長（國家資通安全研究院）</span>
                                 <span className="">鄭欣明 副署長（數位發展部資通安全署）</span>
                                 <span className="">楊士萱 副校長（國立臺北科技大學）</span>
                             </td>
