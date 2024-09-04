@@ -51,6 +51,14 @@ export default function Homepage() {
                                             <td>論文發表場次已經排定，請參考 會議議程 {"->"} <a href="/#Session">論文發表場次</a></td>
                                             
                                         </tr>
+                                        <tr>
+                                            <td className="text-nowrap">2024-08-31</td>
+                                            <td>請點此查看<a href="/#/Images" target="_blank">Day 1 大合照</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td className="text-nowrap">2024-08-31</td>
+                                            <td><a href="https://docs.google.com/forms/d/e/1FAIpQLScTz2wvzhbKasXLY468Jo4cexnLQouqU-vO7SN-ul56YhOhag/viewform" rel="noreferrer" target="_blank">[34th資安會議] 出席/發表證明填寫</a></td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>

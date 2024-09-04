@@ -22,6 +22,7 @@ import Keynote1 from './page/agendas/Keynote1';
 import Keynote2 from './page/agendas/Keynote2';
 import Invited from './page/agendas/Invited';
 import Industry1 from './page/agendas/Industry1';
+import Images from './page/Images';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -46,6 +47,7 @@ root.render(
           <Route path="/CampusMap" element={<CampusMap />}></Route>
           <Route path="/Partner" element={<Partner />}></Route>
           <Route path="/SignUp" element={<Apply />}></Route>
+          <Route path="/Images" element={<Images />}></Route>
           <Route path="/Agenda/Invited" element={<Invited />}></Route>
           <Route path="/Agenda/Industry1" element={<Industry1 />}></Route>
         </Routes>
