@@ -59,6 +59,10 @@ export default function Homepage() {
                                             <td className="text-nowrap">2024-08-31</td>
                                             <td><a href="https://docs.google.com/forms/d/e/1FAIpQLScTz2wvzhbKasXLY468Jo4cexnLQouqU-vO7SN-ul56YhOhag/viewform" rel="noreferrer" target="_blank">[34th資安會議] 出席/發表證明填寫</a></td>
                                         </tr>
+                                        <tr>
+                                            <td className="text-nowrap">2024-10-08</td>
+                                            <td><a href="https://1drv.ms/u/c/7c23b17b6e2ef5d1/EdeP7DhakPpJtqD2sZGPuF4BQ-t5KSmgmSImNCKfKdk_fQ?e=1riVWK" rel="noreferrer" target="_blank">會議照片精選</a></td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
